@@ -1,0 +1,55 @@
+.modale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.msg-first-visite {
+    width: 50%;
+    background-color: #F2F2F2;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-msg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-msg h2, .text-msg p {
+    margin: 0;
+}
+
+.modale[close] {
+    display: none;
+}
+
+.btn-close {
+    background-color: #2E5902;
+    color: #F2F2F2;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+input {
+    padding: 0.5rem ;
+    border: 1px solid #2E5902;
+    border-radius: 20px;
+    width: 100%;
+}
